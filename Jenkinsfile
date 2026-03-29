@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'GITHUB_TOKEN',
-                    url: 'https://github.com/<ajmalsalam>/pythonapp'
+                    url: 'https://github.com/ajmalsalam/pythonapp'
             }
         }
 
